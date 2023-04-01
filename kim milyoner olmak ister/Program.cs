@@ -143,6 +143,7 @@
 
                 if (cekilCevap == 'E')
                 {
+                    Console.WriteLine("Tebrikler,"+kasa+"TL kazandınız."  );
                     Console.WriteLine("Oyun Bitti");
                     //return;
                     Environment.Exit(0);
