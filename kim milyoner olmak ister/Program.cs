@@ -27,7 +27,10 @@
             if (kuralCevap != 'E')
             {
                 // TODO: Kurallar eklenecek.
-                Console.WriteLine("Kurallar: asdfasdaads");
+                Console.WriteLine("Kurallar: ");
+                Console.WriteLine(" Yarışmacı seyircilerle konuşamaz ");
+                Console.WriteLine("Verilen cevaplar sonradan değiştirilemez");
+                
             }
 
             Console.Write("Hazır Mısınız? : ");
