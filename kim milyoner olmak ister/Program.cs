@@ -160,6 +160,7 @@
             kasa = odul;
             Console.WriteLine("Tebrikler, Kazandığınız Tutar: " + kasa + " TL");
 
+            Console.WriteLine("\nSonraki soruya geçmek için Entera basın..");
             Console.ReadLine();
             #endregion
 
