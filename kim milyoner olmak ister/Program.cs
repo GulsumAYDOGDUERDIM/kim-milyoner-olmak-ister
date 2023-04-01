@@ -201,9 +201,9 @@
             
                 Console.Write(" Joker için J'ye,");
                 Console.Write(" Çekilmek için R'ye Basınız: ");
-                //char secim = char.Parse(Console.ReadLine().ToUpper());
+                char secim2 = char.Parse(Console.ReadLine().ToUpper());
 
-                if (secim == 'J')
+                if (secim2 == 'J')
                 {
                     if (!jokerHak)
                     {
