@@ -4,11 +4,10 @@
     {
         static void Main(string[] args)
         {
-            #region Kim Milyoner Olmak İster - V1
+            #region Kim Milyoner Olmak İster 
             Console.WriteLine("Kim Milyoner Olmak İster\n");
             Console.Write("İsim ve Soyisiminizi Giriniz: ");
             string isimSoyisim = Console.ReadLine();
-
 
             Console.Write("\n1.Telefon Jokerinizi Giriniz: ");
             string telefonJoker1 = Console.ReadLine();
@@ -94,7 +93,6 @@
                     Console.WriteLine("Joker Hakkınız Bitmiştir..");
                     goto yanitNoktasi;
                 }
-
                 Console.WriteLine("1-) " + (seyirciHak ? "Seyirci" : ""));
                 Console.WriteLine("2-) " + (yuzdeHak ? "%50" : ""));
                 Console.WriteLine("3-) " + (telefonHak ? "Telefon" : ""));
@@ -135,7 +133,6 @@
                 }
                 else
                     Console.WriteLine("Bu Joker Daha Önce Kullanıldı..");
-
                 goto yanitNoktasi;
             }
             else if (secim == 'R')
@@ -160,7 +157,6 @@
                 //return;
                 Environment.Exit(0);
             }
-
             kasa = odul;
             Console.WriteLine("Tebrikler, Kazandığınız Tutar: " + kasa + " TL");
 
@@ -175,7 +171,6 @@
             cevap = 'A';
             odul = 3000;
             baraj = 0;
-
             // TODO: SoruNo ile ilişkili olarak Rastgele değerler olması lazım.
             seyirciYuzdeA = 80; seyirciYuzdeB = 10;
             seyirciYuzdeC = 5; seyirciYuzdeD = 5;
@@ -195,7 +190,6 @@
 
         yanitNoktasi2:
             //bool jokerHak = seyirciHak || yuzdeHak || telefonHak;
-
             Console.Write("Cevabınızı Giriniz veya");
             if (jokerHak)
             
@@ -210,7 +204,6 @@
                         Console.WriteLine("Joker Hakkınız Bitmiştir..");
                         goto yanitNoktasi2;
                     }
-
                     Console.WriteLine("1-) " + (seyirciHak ? "Seyirci" : ""));
                     Console.WriteLine("2-) " + (yuzdeHak ? "%50" : ""));
                     Console.WriteLine("3-) " + (telefonHak ? "Telefon" : ""));
@@ -251,7 +244,6 @@
                     }
                     else
                         Console.WriteLine("Bu Joker Daha Önce Kullanıldı..");
-
                     goto yanitNoktasi;
                 }
                 else if (secim == 'R')
@@ -279,7 +271,6 @@
 
                 kasa = odul;
                 Console.WriteLine("Tebrikler, Kazandığınız Tutar: " + kasa + " TL");
-
                 Console.WriteLine("\nSonraki soruya geçmek için Entera basın..");
                 Console.ReadLine();
 
